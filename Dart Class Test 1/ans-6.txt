@@ -1,0 +1,12 @@
+Sometimes an error happens in our program. To handle this problem there is concept called "Exception Handling". Every built-in exception in Drat comes under a pre-defined class named Exception. To prevent the program from exception we make use of try/on/catch blocks in Dart. Try, On, Catch , stack Trace, Finally are some Keywords for exception handling.
+
+Syntax - 
+try { 
+   // program that might throw an exception 
+}  
+on Exception1 { 
+   // code for handling exception 1
+}  
+catch Exception2 { 
+   // code for handling exception 2
+}

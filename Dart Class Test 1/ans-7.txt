@@ -1,0 +1,32 @@
+Method Overriding : When a child class tries to override the parent class’s method that is called method overriding.
+
+Rules for Method Overriding
+1.The method which we want to override can only be written in the subclass, not in the same class.
+2.The return type should be the same as in the method present in the superclass.
+3.The argument list should be the same as in the method present in the superclass.
+4.We cannot override a method if it is declared static or final.
+5.If we can't inherit a method, we can't override it.
+
+Example-
+
+class ParentClass {
+   void displayName(){
+      print("Inside the Parent class Method");
+   }
+}
+
+class ChildClass extends ParentClass {
+@override
+   void displayName(){
+      print("Inside the Child class Method");
+   }
+}
+
+void main(){
+   ParentClass pClassObject = new ParentClass();
+   ChildClass cClassObject = new ChildClass();
+   pClassObject.displayName();
+   cClassObject.displayName();
+}
+
+In this code the displayName() method is overridden

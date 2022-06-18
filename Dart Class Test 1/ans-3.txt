@@ -1,0 +1,21 @@
+This Keyword:
+The this keyword is used to refer the current class object. It indicates the current instance of the class, methods, or constructor. It can be also used to call the current class methods or constructors.
+
+Example -
+
+void main(){  
+	people obj = Mobile("Karim",50);  
+}  
+
+class People {  
+    String name;  
+    int age;  
+      
+     // Creating constructor  
+    Mobile(name, age){  
+             this.name = modelname;  
+             this.age = 50;  
+             print("This man's name is: ${name}, and age is: ${age}");  
+  
+                  }  
+}  

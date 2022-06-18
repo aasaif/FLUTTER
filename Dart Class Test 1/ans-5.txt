@@ -1,0 +1,22 @@
+
+Dart does not have a syntax for declaring interfaces. Classes should use the "implements" keyword to be able to use an interface.
+
+Example -
+void main(){
+ A a = A();
+ a.fetch();
+}
+
+
+class A implements InterfaceClass{
+  @override
+  fetch() {
+    print('This is interface class');
+  }
+}
+
+class InterfaceClass{
+  fetch(){
+
+  }
+}

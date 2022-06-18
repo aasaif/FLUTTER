@@ -1,0 +1,31 @@
+higher Order Function : In dart programming language if an function can accept a function as an argument and also can return a function , this type of functions is called higher order functions.
+
+Example : 
+
+void main(){
+
+  //function as parameter
+  addTwoNumbers(){
+    print(10+10);
+  }
+  myFunction(addTwoNumbers);//function as parameter
+  print(mainFunction());
+
+
+}
+
+//function as parameter
+myFunction(Function function){
+  function();
+}
+
+
+//function as return 
+mainFunction(){
+
+  return add(10,10);
+}
+
+  add(a,b){
+    return a+b;
+  }

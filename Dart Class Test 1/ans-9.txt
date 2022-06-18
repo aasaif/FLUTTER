@@ -1,0 +1,8 @@
+An asynchronous operation executes in a thread, separate from the main application thread.
+
+future represents the result of Asynchronous program. It has two state 
+         1.uncompleted state 2.completed state
+
+
+The async and await keywords provide a declarative way to define asynchronous functions and use their results.
+

@@ -1,0 +1,10 @@
+
+Some major reasons for using dart in Flutter is given below -
+
+1.Dart has a declarative and programmable layout that is easy to read and visualize. Hence, Flutter doesn’t require a separate declarative layout language like XML.
+
+2.Dart provides a standalone VM that makes use of the language itself as its intermediate language 
+
+3.One of Flutter’s main value propositions is that it saves engineering resources by letting developers create apps for both iOS and Android with the same codebase.
+
+4.Flutter developers need a language that both delivers high performance and predictable performance, without periodic pauses that would cause dropped frames.

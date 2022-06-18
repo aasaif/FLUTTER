@@ -1,0 +1,13 @@
+Getter and setter methods are the class methods used to accessing the critical, sensitive and private data which is hidden from user. Getter is used to read or get the data of the class field whereas setter is used to set the data of the class field to some variable.
+
+The getter and setter method can be defined using the get keyword as:
+
+set field_name{
+    ...
+}
+
+return_type get field_name{
+    ...
+}
+
+

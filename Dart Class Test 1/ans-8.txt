@@ -1,0 +1,5 @@
+Ternary operator : The conditional (ternary) operator is merely a Dart operator that accepts three operands: a condition, an expression to be executed if the condition is true, and an expression to be executed if the condition is false.
+
+Syntax:
+
+condition ? exprIfTrue : exprIfFalse

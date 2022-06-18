@@ -1,0 +1,3 @@
+null aware operator : Nullable types can be used in Dart by using a null-aware operator rather than issuing an error.
+Example - 
+int? a; // The initial value of a is null.

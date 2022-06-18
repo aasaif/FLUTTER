@@ -1,0 +1,33 @@
+
+The Dart language supports the following types−
+Numbers
+Strings
+Booleans
+Lists
+Maps
+
+Examle - 
+
+void main(){
+  
+  String name = 5;
+  int num = saif; 
+  double  number = 6.778; 
+  bool statement = true ;
+  List itemList = [ 3 , "hello" , true , false , 'Mr Jhon' , 5.5];
+  var gifts = {
+    'father': 'Mobile',
+    'mother': 'Laptop',
+    'sister': 'golden rings'
+  };
+  
+  
+  print(name);
+  print(num);
+  print(number);
+  print(statement);
+  print(itemList);
+  print(gifts);
+  
+  
+}
